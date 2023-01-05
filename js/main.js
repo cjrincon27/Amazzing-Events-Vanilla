@@ -13,7 +13,7 @@ const segundat=document.getElementById('statisticsup')
 const tercerat=document.getElementById('statisticspast')
 
 let data=[];
-let url="https://amazing-events.herokuapp.com/api/events"
+let url="https://mindhub-xj03.onrender.com/api/amazing"
 //----------------TRAER DATA----------------------------
     fetch(url)
     .then(response => response.json()
